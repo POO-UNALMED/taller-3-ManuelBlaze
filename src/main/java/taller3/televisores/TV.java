@@ -24,7 +24,7 @@ public class TV {
 	}
 	
 	public Control getControl () {
-		return this.control;
+		return control;
 	}
 	
 	public static int getNumTV () {
