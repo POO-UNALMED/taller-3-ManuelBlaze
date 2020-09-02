@@ -23,8 +23,16 @@ public class TV {
 		this.control = control;
 	}
 	
-	public int getNumTV () {
+	public Control getControl () {
+		return this.control;
+	}
+	
+	public static int getNumTV () {
 		return numTV;
+	}
+	
+	public void setNumTV (int numTV) {
+		TV.numTV = numTV;
 	}
 	
 	public boolean getEstado () {
